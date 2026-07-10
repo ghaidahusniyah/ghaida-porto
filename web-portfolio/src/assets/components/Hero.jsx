@@ -48,7 +48,7 @@ const Hero = () => {
         </div>
         <div className='hero-text w-full absolute px-4 sm:px-8'>
           <h1 className="text-text py-2 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-ovo leading-tight">
-            Hi! I'm <span className='text-aksen'>Zalfa</span>, your{" "}
+            Hi! I'm <span className='text-aksen'>Ghaida</span>, your{" "}
             <span className="relative">
               <span className="text-blue-400">{displayedText}</span>
               <span className="blinking-cursor absolute">|</span>
