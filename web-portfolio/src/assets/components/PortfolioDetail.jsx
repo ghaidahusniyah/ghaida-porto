@@ -210,11 +210,21 @@ const PortfolioDetail = () => {
   }, [id, data]);
 
   const handleProjectSelect = (project) => {
-    if (selectedProject?.id === project.id) return;
+    if (selectedProject?.id === project.id) {
+      if (window.innerWidth < 1024) {
+        document.getElementById('project-details')?.scrollIntoView({ behavior: 'smooth' });
+      }
+      return;
+    }
     setFade(false);
     setTimeout(() => {
       setSelectedProject(project);
       setFade(true);
+      setTimeout(() => {
+        if (window.innerWidth < 1024) {
+          document.getElementById('project-details')?.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 50);
     }, 200);
   };
 
@@ -312,6 +322,20 @@ const PortfolioDetail = () => {
                 <span className="font-mulish text-[10px] text-aksen font-bold uppercase tracking-wider">{project.subtitle}</span>
                 <h4 className="font-ovo text-lg text-text font-semibold mt-1 group-hover:text-aksen transition-colors">{project.title}</h4>
                 <p className="font-mulish text-xs text-text/60 mt-2 line-clamp-2 leading-relaxed">{project.description}</p>
+                {isActive && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      document.getElementById('project-details')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className="mt-4 w-full py-2.5 bg-aksen text-text hover:bg-third text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-all duration-300 shadow-md shadow-aksen/15 lg:hidden"
+                  >
+                    <span>Lihat Detail Project</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-3.5 h-3.5 animate-bounce">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  </button>
+                )}
               </div>
             );
           })}
@@ -320,7 +344,8 @@ const PortfolioDetail = () => {
         {/* Project Details Showcase Area */}
         {selectedProject && (
           <div
-            className={`transition-all duration-300 transform ${fade ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+            id="project-details"
+            className={`transition-all duration-300 transform scroll-mt-24 ${fade ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
               }`}
           >
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start bg-card/65 backdrop-blur-md border border-aksen/30 rounded-2xl p-6 md:p-10 text-start shadow-xl shadow-black/30">
