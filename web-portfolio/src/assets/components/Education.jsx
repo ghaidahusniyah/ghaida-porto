@@ -2,7 +2,7 @@ import React from 'react';
 
 const Education = () => {
   return (
-    <section id="education" className="py-24 px-10 md:px-24 lg:px-36 bg-primary text-text border-t border-aksen/10 scroll-mt-20">
+    <section id="education" className="py-24 px-10 md:px-24 lg:px-36 text-text border-t border-aksen/10 scroll-mt-20">
       <div className="max-w-6xl mx-auto text-start">
         <div className="flex items-center gap-2 mb-3">
           <span className="h-1 w-10 bg-aksen rounded-full"></span>
@@ -26,10 +26,10 @@ const Education = () => {
               <img src="/img/iwu.png" alt="International Women University" className="w-16 h-16 object-contain" />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2023 - 2027</span>
+              <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2023 - Present</span>
               <h3 className="font-ovo text-2xl text-text mb-1">International Women University</h3>
               <p className="font-mulish text-text/80 text-base">Bachelor of Informatics (S1)</p>
-              <p className="font-mulish text-text/50 text-xs mt-2">Specializing in Software Systems and UI/UX. Active in Sound of IWU Student Choir as Vice Chairperson / Member.</p>
+              <p className="font-mulish text-text/50 text-xs mt-2">Pursuing a Bachelor's degree in Informatics with interests in UI/UX Design, Software Systems, and Product Development. Beyond academics, I serve as Chairperson of the Sound of IWU Student Choir, leading a team of over 150 members while developing leadership, communication, and organizational management skills.</p>
             </div>
           </div>
 
@@ -39,10 +39,10 @@ const Education = () => {
               <img src="/img/hari-senin.png" alt="" />
             </div>
             <div className="flex flex-col justify-center">
-              <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2026 - Present</span>
+              <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2026</span>
               <h3 className="font-ovo text-2xl text-text mb-1">Harisenin.com</h3>
               <p className="font-mulish text-text/80 text-base">Product Manager Bootcamp (Batch 17)</p>
-              <p className="font-mulish text-text/50 text-xs mt-2">Studying product life-cycle management, writing PRDs, and aligning product strategies with business/engineering.</p>
+              <p className="font-mulish text-text/50 text-xs mt-2">Completed an intensive Product Management bootcamp focused on transforming ideas into digital products. Learned product discovery, user research, competitive analysis, product strategy, roadmap development, prioritization, PRD writing, and stakeholder communication while balancing business objectives with user needs.</p>
             </div>
           </div>
 
@@ -54,8 +54,8 @@ const Education = () => {
             <div className="flex flex-col justify-center">
               <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2024</span>
               <h3 className="font-ovo text-2xl text-text mb-1">MySkill Bootcamp</h3>
-              <p className="font-mulish text-text/80 text-base">UI/UX Research & Design (Batch 16)</p>
-              <p className="font-mulish text-text/50 text-xs mt-2">Completed intensive training in user research, wireframing, high-fidelity UI layouting, and interactive prototyping.</p>
+              <p className="font-mulish text-text/80 text-base">UI/UX Research & Design: Fullstack Intensive Bootcamp (Batch 16)</p>
+              <p className="font-mulish text-text/50 text-xs mt-2">Completed an intensive UI/UX Design bootcamp with hands-on projects covering user research, competitive analysis, information architecture, user flows, wireframing, high-fidelity UI design, interactive prototyping, usability testing, and design systems. Developed user-centered solutions using Figma while applying UX best practices throughout the design process.</p>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ const Education = () => {
               <span className="text-aksen font-mulish text-xs font-semibold px-2 py-0.5 bg-aksen/10 rounded-full w-max mb-2">2020 - 2023</span>
               <h3 className="font-ovo text-2xl text-text mb-1">SMKN 13 Bandung</h3>
               <p className="font-mulish text-text/80 text-base">Rekayasa Perangkat Lunak (RPL)</p>
-              <p className="font-mulish text-text/50 text-xs mt-2">Gained core software engineering skills. Active in student council (MPK), Choir, English Club, and Music bands.</p>
+              <p className="font-mulish text-text/50 text-xs mt-2">Developed fundamental software engineering skills including programming, web development, and system design. Actively participated in organizational and extracurricular activities, including the Student Representative Council (MPK), Choir, English Club, and music bands, strengthening leadership, communication, and teamwork abilities.</p>
             </div>
           </div>
 

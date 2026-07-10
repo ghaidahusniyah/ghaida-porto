@@ -40,9 +40,9 @@ const Header = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }
           }}
-          className="font-ovo text-2xl font-bold text-text cursor-pointer hover:text-aksen transition-colors duration-300"
+          className="cursor-pointer group"
         >
-          Ghaida<span className="text-aksen">.</span>
+          <img src="/img/logo-porto.png" alt="Ghaida Logo" className="h-8 w-auto group-hover:scale-105 transition-transform duration-300" />
         </div>
 
         {/* Desktop Menu */}

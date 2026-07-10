@@ -5,32 +5,32 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   const boxes = [
-    { 
-      id: "project-manager", 
-      label1: "Project Manager", 
-      label2: "Portfolio", 
-      title: "Harisenin", 
-      caption: "PM Bootcamp (Batch 17)", 
-      title2: "PLM & PRD", 
-      caption2: "MVP Specifications", 
+    {
+      id: "project-manager",
+      label1: "Project Manager",
+      label2: "Portfolio",
+      title: "Harisenin",
+      caption: "PM Bootcamp (Batch 17)",
+      title2: "PRD",
+      caption2: "Product Lifecycle",
     },
-    { 
-      id: "uiux", 
-      label1: "UI/UX Designer", 
-      label2: "Portfolio", 
-      title: "MySkill & Dibimbing", 
-      caption: "Certified UI/UX Designer", 
-      title2: "Intermediate", 
-      caption2: "Design Proficiency", 
+    {
+      id: "uiux",
+      label1: "UI/UX Designer",
+      label2: "Portfolio",
+      title: "MySkill & Dibimbing",
+      caption: "Certified UI/UX Designer",
+      title2: "Intermediate",
+      caption2: "Design Proficiency",
     },
-    { 
-      id: "frontend-dev", 
-      label1: "Frontend Dev", 
-      label2: "Portfolio", 
-      title: "Ex-Intern & BNSP", 
-      caption: "Junior Web Developer Certified", 
-      title2: "Grade A", 
-      caption2: "PT. Sarana Pactindo Score", 
+    {
+      id: "frontend-dev",
+      label1: "Frontend Dev",
+      label2: "Portfolio",
+      title: "Ex-Intern",
+      caption: "PT. Sarana Pactindo",
+      title2: "Certified BNSP",
+      caption2: "Junior Web Developer",
     },
   ];
 
@@ -39,7 +39,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="portfolio" className="py-24 px-10 md:px-24 lg:px-36 bg-primary text-text border-t border-aksen/10 scroll-mt-20">
+    <section id="portfolio" className="py-24 px-10 md:px-24 lg:px-36 text-text border-t border-aksen/10 scroll-mt-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-start mb-12">
           <div className="flex items-center gap-2 mb-3">
@@ -59,7 +59,7 @@ const Portfolio = () => {
             >
               {/* Top Triangle Accent */}
               <div className="triangle-up mx-auto transition-transform duration-300 group-hover:scale-110"></div>
-              
+
               <div className="relative flex-1 flex flex-col items-center justify-center font-mulish text-center text-text">
                 {/* Default Label View */}
                 <div className="absolute transition-all duration-300 opacity-100 group-hover:opacity-0 group-hover:scale-90">

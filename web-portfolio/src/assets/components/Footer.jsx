@@ -24,7 +24,7 @@ const Footer = () => {
         
         {/* Left Column: Branding and Tagline */}
         <div className="flex-1 text-center md:text-start space-y-4 max-w-sm">
-          <h3 
+          <div 
             onClick={() => {
               if (location.pathname !== '/') {
                 navigate('/');
@@ -32,10 +32,10 @@ const Footer = () => {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }
             }}
-            className="font-ovo text-2xl font-bold cursor-pointer hover:text-aksen transition-colors duration-300"
+            className="cursor-pointer inline-block group"
           >
-            Ghaida<span className="text-aksen">.</span>
-          </h3>
+            <img src="/img/logo-porto.png" alt="Ghaida Logo" className="h-12 w-auto group-hover:scale-105 transition-transform duration-300 mx-auto md:mx-0" />
+          </div>
           <p className="font-mulish text-sm text-text/70 leading-relaxed">
             Frontend Developer, UI/UX Designer, and Project Manager. Crafting functional and visually premium digital experiences.
           </p>

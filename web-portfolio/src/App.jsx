@@ -10,10 +10,12 @@ import Portfolio from './assets/components/Portfolio.jsx';
 import License from './assets/components/LIcense.jsx';
 import PortfolioDetail from './assets/components/PortfolioDetail.jsx';
 import Footer from './assets/components/Footer.jsx';
+import CursorGlow from './assets/components/CursorGlow.jsx';
 
 const App = () => {
   return (
-    <div className='bg-primary text-text font-mulish min-h-screen flex flex-col'>
+    <div className='bg-primary text-text font-mulish min-h-screen flex flex-col relative overflow-x-hidden'>
+      <CursorGlow />
       <Header />
       <main className="flex-grow">
         <Routes>
