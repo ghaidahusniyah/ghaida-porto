@@ -71,7 +71,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-text hover:text-aksen focus:outline-none"
+          className="md:hidden bg-text text-primary p-2 rounded-lg hover:bg-aksen hover:text-text transition-colors duration-300 focus:outline-none"
         >
           <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
             {isOpen ? (
