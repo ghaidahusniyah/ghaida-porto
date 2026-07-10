@@ -29,7 +29,7 @@ const portfolioData = {
         status: 'Bootcamp MVP Proposal',
         deliverables: ['Product Requirement Document (PRD)', 'Figma Mobile Mockups', 'Spreadsheet Budgeting', 'Gantt Chart Roadmap'],
         achievements: [
-          'Latar Belakang: Conventional queuing in clinics and hospitals leads to 1-2 hour waiting times, crowding, and lack of transparency. MediaEase resolves this through a real-time digital queue indicator.',
+          'Background: Conventional queuing in clinics and hospitals leads to 1-2 hour waiting times, crowding, and lack of transparency. MediaEase resolves this through a real-time digital queue indicator.',
           'Goal / Objectives: Launch an MVP in Q3 2026 to reduce average patient wait times by 40% and establish automated SMS/WhatsApp alerts for upcoming slots.',
           'Scope / Fitur: Incorporates User Auth, online queue booking, live queue board visualization, e-tickets with QR code arrivals, and transaction fee estimation.',
           'Out of Scope: Telemedicine consultations, e-pharmacy delivery, and PDDikti/SatuSehat integrations are excluded from Phase 1.'
@@ -47,7 +47,7 @@ const portfolioData = {
         status: 'Real Case System Implementation',
         deliverables: ['SPMI Auditing Standard Document', 'Process Audit Flowcharts', 'Correction Action Plans (RTL)'],
         achievements: [
-          'Latar Belakang: University accreditation requires strict auditing of academic standards. IWU previously audited via spreadsheets, causing data silos and major review bottlenecks.',
+          'Background: University accreditation requires strict auditing of academic standards. IWU previously audited via spreadsheets, causing data silos and major review bottlenecks.',
           'Goal / Objectives: Automate auditing workflows for 10+ departments, establishing clear review logs and tracking non-compliance correction plans (RTL) transparently.',
           'Scope / Fitur: Mapped self-evaluation portal for department heads, custom auditor verification board, and quality standards index tracker.',
           'Out of Scope: SPME (External accreditation BAN-PT) automated submissions are excluded to prioritize internal verification security.'
@@ -64,7 +64,7 @@ const portfolioData = {
         status: 'Academic Project (Tugas Besar)',
         deliverables: ['Software Requirements Specification (SRS)', 'RSA Keypair Hashing Schema', 'Use Case Specification Diagram', 'Ethereum Deployment Scripts'],
         achievements: [
-          'Latar Belakang: Mitigates academic credential forgery by securing certificate hashes. Ensures integrity through cryptographically sealed signatures.',
+          'Background: Mitigates academic credential forgery by securing certificate hashes. Ensures integrity through cryptographically sealed signatures.',
           'Goal / Objectives: Define system features, data structure constraints, and design requirements for a secure multithreaded React and Node signature scanner.',
           'Scope / Fitur: Automated RSA key generation, dynamic navigational menus, SHA-256 document hashing, sequential multi-signature approval flow, and public verification lookup.',
           'Out of Scope / Constraints: Private keys must remain client-side (untransmitted to servers), session tokens are cleared on browser exit, and SPME linkups are deferred.'
